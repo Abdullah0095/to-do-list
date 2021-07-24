@@ -11,17 +11,13 @@ const App = () => {
   
   
   return (
-    <div >
-      <h1>My To-Do-LIST</h1>
+    <div style={{backgroundColor: 'MediumTurquoise', height: '11400px', marginTop: '-21px'}}>
+      <h1 style={{textAlign: 'center'}}>My To-Do-LIST</h1>
       
         {
           toDos.map(toDo => <Lists toDo={toDo}></Lists>)
           
         }
-        {
-          console.log(toDos)
-        }
-      
     </div>
   );
 };

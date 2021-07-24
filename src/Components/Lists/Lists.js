@@ -4,12 +4,12 @@ const Lists = (props) => {
 
     const listStyle ={
         textAlign: 'center',
-        border: '3px solid gray',
-        margin: '5px',
-        width: '300px',
+        margin: '8px',
+        width: '320px',
         float: 'left',
-        height: '230px',
-        backgroundColor: 'orangered'
+        height: '200px',
+        backgroundColor: 'DarkSlateGrey',
+        color: 'white'
     }
 
     return (
