@@ -8,7 +8,7 @@ const Lists = (props) => {
         width: '320px',
         float: 'left',
         height: '200px',
-        backgroundColor: 'DarkSlateGrey',
+        backgroundColor: 'rgb(25, 1, 11)',
         color: 'white'
     }
 

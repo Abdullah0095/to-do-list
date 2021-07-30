@@ -15,7 +15,7 @@ const App = () => {
   
   
   return (
-    <div style={{backgroundColor: 'MediumTurquoise', height: '2900px', marginTop: '-21px'}}>
+    <div style={{backgroundColor: 'teal', height: '2900px', marginTop: '-21px'}}>
       <h1 style={{textAlign: 'center'}}>My To-Do-LIST</h1>
       
         {
