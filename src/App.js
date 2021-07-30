@@ -9,13 +9,17 @@ const App = () => {
     .then(data=> setToDos(data))
   },[]);
   
+  const toDos50 = toDos.slice(0,50);
+  console.log(toDos50);
+
+  
   
   return (
-    <div style={{backgroundColor: 'MediumTurquoise', height: '11400px', marginTop: '-21px'}}>
+    <div style={{backgroundColor: 'MediumTurquoise', height: '2900px', marginTop: '-21px'}}>
       <h1 style={{textAlign: 'center'}}>My To-Do-LIST</h1>
       
         {
-          toDos.map(toDo => <Lists toDo={toDo}></Lists>)
+          toDos50.map(toDo => <Lists toDo={toDo}></Lists>)
           
         }
     </div>
